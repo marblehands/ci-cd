@@ -6,6 +6,7 @@ import { PagesList } from './enums';
 import { Products } from './types';
 
 function isHTMLElement<T>(el: T | HTMLElement): el is HTMLElement {
+  const constantError;
   return el instanceof EventTarget;
 }
 
