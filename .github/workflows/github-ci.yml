@@ -1,9 +1,6 @@
 name: Validations for Each Commit
 run-name: ${{ github.actor }} is pushing to the feature branch 🚀
-on:
-  push:
-    branches:
-      - 'feature/**'
+on: [push]
 
 jobs:
   validations-for-each-commit:
