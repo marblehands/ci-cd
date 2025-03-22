@@ -1,6 +1,13 @@
 name: Validations for Each Commit
 run-name: "Branch '${{ github.ref_name }}' – pushed by ${{ github.actor }} 🚀"
-on: [push]
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
 
 jobs:
   validations-for-each-commit:
