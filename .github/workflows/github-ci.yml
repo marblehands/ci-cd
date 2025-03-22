@@ -1,5 +1,5 @@
 name: Validations for Each Commit
-run-name: '${{ github.actor }} pushed to ${{ github.ref_name }} – Commit ${{ github.sha }} 🚀'
+run-name: "Branch '${{ github.ref_name }}' – pushed by ${{ github.actor }} 🚀"
 on: [push]
 
 jobs:
