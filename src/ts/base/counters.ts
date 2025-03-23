@@ -11,3 +11,5 @@ export const counters: string[] = [
   '#tall',
   '#true',
 ];
+
+const error;
