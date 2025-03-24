@@ -620,6 +620,7 @@ h2 {
   -ms-flex-align: end;
   align-items: flex-end;
   cursor: pointer;
+  color: black;
 }
 
 .cart__num {
@@ -1211,7 +1212,7 @@ h2 {
 }
 
 .product__type {
-  color: #068a62;
+  color: #003f2c;
 }
 
 .product__title {
@@ -1246,11 +1247,10 @@ h2 {
   font-size: 1.5em;
   font-weight: bold;
 }
-
 .product__stock {
   margin-top: 5px;
   margin-right: 10px;
-  color: #068a62;
+  color: #003f2c;
   font-size: 0.8em;
   text-align: right;
 }
